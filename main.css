@@ -918,6 +918,7 @@ body {
     }
     .captionhack {
         display: block;
+		opacity: 0;
     }
 }
 
