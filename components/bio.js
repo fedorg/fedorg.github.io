@@ -1,6 +1,3 @@
-import Image from 'next/image'
-import { Carousel } from 'antd';
-
 export default function Bio() {
 	return (<>
 		<div className="row header"></div>
@@ -26,7 +23,7 @@ export default function Bio() {
 				<div className="avatar">
 					{/* <Image alt="avatar" title="Фотографию поадекватней надо бы сделать" src="/devops-ave3.png" layout="fill" />
 						<Image alt="avatar" title="Фотографию поадекватней надо бы сделать" src="/ave.jpg" layout="fill" /> */}
-					<Image alt="avatar" title="Фотографию поадекватней надо бы сделать" src="/a872baa67fdf560b93551310840dc081.png" layout="fill" />
+					<img alt="avatar" title="Фотографию поадекватней надо бы сделать" src="/a872baa67fdf560b93551310840dc081.png" />
 				</div>
 			</div>
 		</div>
