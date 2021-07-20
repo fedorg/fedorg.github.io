@@ -25,6 +25,9 @@ export default function Home() {
                     <h2 style={{ marginRight: 'auto', marginLeft: 'auto' }}>Цены на услуги</h2>
                 </Row>
                 <Devops />
+                <Row>
+                    <div style={{ paddingTop: '100px' }} />
+                </Row>
             </div>
         </div>
     )

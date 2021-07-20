@@ -2,59 +2,24 @@ import React from "react";
 
 import { List, Row, Col, Avatar } from "antd";
 
-const data = [
-    {
-        title: 'DevOps консалтинг',
-        price: 2500,
-        avatar: "icons/devops.png"
-    },
-    {
-        title: 'Сборка и деплой пакетов с помощью Ansible',
-        price: 2500,
-        avatar: "icons/ansible.png"
-    },
-    {
-        title: 'Внедрение Agile процессов и найм персонала',
-        price: 2500,
-        avatar: "icons/vnedren.png"
-    },
-    {
-        title: 'Траблшутинг различных задач и процессов, помощь разработчикам',
-        price: 2500,
-        avatar: "icons/troubleshooting.png"
-    },
-    {
-        title: 'Внедрения сервиса применения конфигурации Ansible, Chef, Puppet',
-        price: 2500,
-        avatar: "icons/puppet.png"
-    },
-    {
-        title: 'Настройка систем контроля версий на сервере SVN, GIT, Bitbucket, Mercurial и др.',
-        price: 2500,
-        avatar: "icons/git.png"
-    },
-    {
-        title: 'Установка, настройка контейнеров Docker',
-        price: 2500,
-        avatar: "icons/docker.png"
-    },
-    {
-        title: 'Настройка различных систем мониторинга, Nagios, Zabbix, Munin, Zenoss и др.',
-        price: 2500,
-        avatar: "icons/monitor.png"
-    },
-    {
-        title: 'Настройка отказоустойчивых кластеров с распределением нагрузки',
-        price: 2500,
-        avatar: "icons/cluster.png"
-    },
-    {
-        title: 'Внедрения таск менеджмент систем и их интеграция Jira, Service Desk, Confluence',
-        price: 2500,
-        avatar: "icons/jira.png"
-    },
-];
+const prices = [
+    ["Консультация", "3000 р/час", "icons/devops.png"],
+    ["Найм персонала", 8000, "icons/desk.png"],
+    ["Настройка Git и GitHub и систем трекинга для работы команды", 2500, "icons/git.png"],
+    ["Настройка пайплайнов CI/CD (Github Actions, Gitlab CI, ...)", 7000, "icons/vnedren.png"],
+    ["Докеризация сборки и отладки под разработчика и прод", 5000, "icons/docker.png"],
+    ["Документирование текущей конфигурации системы", 5000, "icons/jira.png"],
+    // ["Внедрения таск менеджмент систем Jira, Confluence", 12000, "icons/jira.png"],
+    ["Поиск и устранение ошибок, помощь разработчикам", 11000, "icons/troubleshooting.png"],
+    ["Создание отказоустойчивой инфраструктуры с распределением нагрузки", 12000, "icons/cluster.png"],
+    ["Кластеризация готового приложения", 4000, "icons/cluster.png"],
+    ["Настройка облаков (Yandex, AWS, Google) для запуска приложений и сайтов", 3500, "icons/gcloud.png"],
+    ["Запуск имеющегося приложения в облачном Kubernetes", 2500, "icons/kubernetes.png"],
+    ["Создание скриптов развертывания инфраструктуры (Ansible, Terraform, bash)", 2500, "icons/ansible.png"],
+    ["Настройка систем логирования и мониторинга (ELK, Grafana, Loki, Prometheus)", 3500, "icons/monitor.png"],
+]
 
+const data = prices.map(([title, price, avatar]) => ({ title, price, avatar }))
 
 const Devops = () => {
     return <>
@@ -68,7 +33,7 @@ const Devops = () => {
                             <List.Item.Meta
                                 avatar={<Avatar shape="square" src={item.avatar} />}
                                 title={<span style={{ fontSize: "1.2em" }}> {item.title} </span>}
-                                // description={item.description}
+                            // description={item.description}
                             />
                             <div style={{ marginLeft: "100px" }}>{item.price}</div>
                         </List.Item>
