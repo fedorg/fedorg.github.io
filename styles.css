@@ -1,4 +1,4 @@
-/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+! normalize.css v3.0.2 | MIT License | git.io/normalize
 
 /**
  * 1. Set default font family to sans-serif.
@@ -550,12 +550,6 @@ html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%; }
-body {
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.6;
-  font-weight: 400;
-  font-family: "PT serif", serif;
-  color: #222; }
 
 
 /* Typography
@@ -715,27 +709,6 @@ label > .label-body {
   font-weight: normal; }
 
 
-/* Lists
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-ul {
-  list-style: circle inside;}
-ol {
-  list-style: decimal inside; }
-ol, ul {
-  padding-left: 0;
-  margin-top: 0;}
-
-ul ul,
-ul ol,
-ol ol,
-ol ul {
-  margin: 1.5rem 0 1.5rem 3rem;
-  font-size: 90%; }
-li {
-  /* fix multiline padding */
-  text-indent: -3rem;
-  padding-left: 3rem;
-  margin-bottom: 1rem; }
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -825,31 +798,6 @@ hr {
   clear: both; }
 
 
-/* Media Queries
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*
-Note: The best way to structure the use of media queries is to create the queries
-near the relevant code. For example, if you wanted to change the styles for buttons
-on small devices, paste the mobile query code up in the buttons section and style it
-there.
-*/
-
-
-/* Larger than mobile */
-@media (min-width: 400px) {}
-
-/* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
-
-/* Larger than tablet */
-@media (min-width: 750px) {}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
-
 
 
 /*
@@ -859,12 +807,39 @@ there.
  *
  */
 
+body .container .row {
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "PT serif", serif;
+  background-color: white;
+  color: #222; }
 
-body {
-    font-family: 'PT Serif', serif;
-    background-color: white;
-    color: black;
+.container .row code {
+  font-size: 90%;
 }
+
+body .container .row li {
+  /* fix multiline padding */
+  text-indent: -3rem;
+  padding-left: 3rem;
+  margin-bottom: 1rem; }
+
+ul {
+  list-style: circle inside;}
+ol {
+  list-style: decimal inside; }
+ol, ul {
+  padding-left: 0;
+  margin-top: 0;}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 1.5rem 0 1.5rem 3rem;
+  font-size: 90%; }
+
 
 .header {
     padding-top: 3.5rem;
