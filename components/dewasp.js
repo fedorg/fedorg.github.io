@@ -59,7 +59,7 @@ const data = [
 const Devops = () => {
     return <>
         <Row justify="center" align="middle">
-            <Col justify="center" span={8}>
+            <Col justify="center" xs={20} md={16} lg={12}>
                 <List
                     itemLayout="horizontal"
                     dataSource={data}
@@ -67,8 +67,8 @@ const Devops = () => {
                         <List.Item>
                             <List.Item.Meta
                                 avatar={<Avatar shape="square" src={item.avatar} />}
-                                title={<> {item.title} </>}
-                                description={item.description}
+                                title={<span style={{ fontSize: "1.2em" }}> {item.title} </span>}
+                                // description={item.description}
                             />
                             <div style={{ marginLeft: "100px" }}>{item.price}</div>
                         </List.Item>

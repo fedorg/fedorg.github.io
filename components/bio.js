@@ -7,7 +7,7 @@ export default function Bio() {
 					<h4>Голишевский Федор Леонидович</h4>
 				</div>
 				<p>Возраст: 27<br /> Родной город: Петербург<br />
-					<a href="#" onClick={function () { this.href = 'mailto:fed0000xmail.com'.split('x').join('r+hi@g'); return true; }}>fed00<span style={{ "display": "none" }}>dummy2982984358@mail.ru</span>00r@gmail.com</a><br />
+					<a href="#" onClick={function (e) { e.target.href = 'mailto:fed0000xmail.com'.split('x').join('r+hi@g'); return true; }}>fed00<span style={{ "display": "none" }}>dummy2982984358@mail.ru</span>00r@gmail.com</a><br />
 					<a href="tel:+79117174549">+7(911) 717-45-49</a> <br />
 					<a href="https://sberdevices.ru"><span className="workplace">SberDevices</span></a>
 				</p>

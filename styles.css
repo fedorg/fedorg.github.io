@@ -981,3 +981,7 @@ ul span {
 .footer {
     padding-top: 6rem;
 }
+
+.blacklink * {
+  color: black;
+}

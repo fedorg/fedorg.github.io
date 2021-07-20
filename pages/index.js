@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import 'antd/dist/antd.css'
 import Bio from "../components/bio"
-import Devops from "../components/dewasp"
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
       </Head>
       <Bio />
-      <Devops />
+      <a href="/prices">Цены на услуги</a>
     </div>
   )
 }
