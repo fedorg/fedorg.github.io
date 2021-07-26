@@ -19,6 +19,7 @@ export default function Home() {
                     title={<Link href="/">Назад</Link>}
                 />
                 <Row>
+                    <img alt="kubernetes meme" src="/kubermaster.jpg" />
                     <div style={{ paddingTop: '100px' }} />
                 </Row>
                 <Row>
