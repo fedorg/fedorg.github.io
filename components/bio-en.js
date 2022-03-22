@@ -6,10 +6,12 @@ export default function Bio() {
 				<div className="row">
 					<h4>Fedor Golishevskii</h4>
 				</div>
-				<p>Age: 28<br /> Location: Warsaw<br />
+				<p>
 					<a href="mailto:fed0000r@gmail.com">fed0000r@gmail.com</a><br />
 					{/* <a href="tel:+79117174549">+7(911) 717-45-49</a> <br /> */}
-					<a href="https://sberdevices.ru"><span className="workplace">SberDevices</span></a>
+					DevOps (2y+)<br />
+					Age: 28<br />
+					{/* <span style={{whiteSpace: 'nowrap'}}>I've been doing IT for years geez omg help help</span> */}
 				</p>
 				<div className="row link-icons">
 					<a href="https://github.com/fedorg"><i className="fa fa-github"></i></a>
@@ -28,32 +30,53 @@ export default function Bio() {
 		</div>
 		<div className="row section">
 			<div className="six columns">
-				<h4>Key skills</h4>
+				<h4>Areas of expertise</h4>
 				<ul className="nobullets">
-					<li><code>git</code><code>svn</code></li>
-					<li><code>С++14</code><code>boost</code></li>
-					<li><code>Unreal Engine 4 C++</code></li>
-					<li><code>ES2016</code><code>node.js</code></li>
-					<li><code>TypeScript 2</code></li>
+					<li><code>DevOps</code><code>SRE</code><code>IaC</code></li>
+					<li><code>Observability</code><code>Microservices</code></li>
+					<li><code>Software architecture</code></li>
+					<li title="don't judge it by this site; I've started it when Bootstrap was popular and never bothered to update it. Not to brag but am in top 5% React devs on LinkedIn. I'm learning Swift now though"><code>Frontend development</code></li>
 				</ul>
 			</div>
 			<div className="six columns">
-				<h4>Tech</h4>
-				<ul className="split nobullets">
-					<li><code>HTML5</code><code>CSS3</code><code>JS</code></li>
-					<li><code>NW.js</code><code>Electron</code></li>
-					<li><code>Emscripten</code></li>
-					<li><code>Mocha</code><code>Chai</code><code>TestNG</code></li>
-					<li><code>MySQL</code></li>
-					<li><code>Azure NoSQL</code></li>
-					<li><code>Gitlab CI</code><code>gulp</code></li>
+				<h4>Technologies</h4>
+				<ul className="nobullets">
+					<li>
+						<code>go</code>
+						<code>python</code>
+						<code>ts</code>
+						<code>bash</code>
+						<code>c++</code>
+						<code>haskell</code><code>:^)</code>
+					</li>
 				</ul>
-				<ul className="split nobullets">
-					<li><code>С</code></li>
-					<li><code>Go 1.7</code></li>
-					<li><code>Python</code></li>
-					<li><code>Java 7</code></li>
-					<li><code>HLSL</code></li>
+				<ul className="nobullets">
+					<li>
+						<code>terraform</code>
+						<code>nomad</code>
+						<code>k8s</code>
+						<code>ansible</code>
+						<code>ci/cd</code>
+					</li>
+					<li>
+						<code>grafana</code>
+						<code>loki</code>
+						<code>prometheus</code>
+						<code>jaeger</code>
+					</li>
+					<li>
+						<code>nginx</code>
+						<code>websockets</code>
+						<code>grpc</code>
+						<code>graphql</code>
+					</li>
+					<li>
+						<code>mongo</code>
+						<code>docker</code>
+						<code>consul</code>
+						<code>vault</code>
+						<code>...</code>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -61,50 +84,40 @@ export default function Bio() {
 			<div className="six columns">
 				<h4>Education</h4>
 				<ul>
-					<li>2015 Msc Biochemistry</li>
-					<li>Saint-Petersburg university</li>
+					<li>2015 MSc Biochemistry</li>
+					<li>Languages: ru, en</li>
 				</ul>
 			</div>
 			<div className="six columns">
-				<h4>Theory</h4>
+				<h4>Jobs</h4>
 				<ul>
-					<li>“Algorithms and data structures”</li>
-					<li>“Introduction to Power Electronics”</li>
+					<li>Lead DevOps <a href="https://sberdevices.ru"><span className="workplace">@sberDevices</span></a></li>
+					<li>DevOps <a href="https://biocad.ru"><span className="workplace">@biocad</span></a></li>
+					<li>Full-stack dev <a href="https://biocad.ru"><span className="workplace">@biocad</span></a></li>
 				</ul>
 			</div>
 		</div>
 		<div className="row section">
 			<div className="six columns">
-				<h4>Навыки</h4>
+				<h4>Want to learn about</h4>
 				<ul className="split">
-					<li className="progskill"><span>Кроссплатформенная разработка приложений</span></li>
-					<li className="progskill"><span>Взаимодействие с движком Unreal Engine 4</span></li>
-					<li className="chemskill"><span>Молекулярный докинг “лиганд-рецептор” (Vina)</span></li>
+					<li>Neural networks</li>
+					<li>Biocomputing</li>
+					<li>Hypervisors</li>
+					<li>Niche industries</li>
 				</ul>
 			</div>
 			<div className="six columns">
-				<h4 className="captionhack">.</h4>
+				<h4 className="captionhack">Want to learn</h4>
 				<ul className="split">
-					<li className="hardskill"><span>Программирование на языке C для AVR / STM32</span></li>
-					<li className="softskill"><span>Английский разговорный и технический</span></li>
-				</ul>
-			</div>
-		</div>
-		<div className="row section">
-			<div className="six columns">
-				<h4>Interests</h4>
-				<ul>
-					<li>React / Redux / Rx / …</li>
-					<li>C# / F# / Scala</li>
 					<li>FPGA (Verilog/VHDL)</li>
 					<li>linux driver development</li>
-					<li>Machine learning / NN</li>
-					<li>Retrosynthesis</li>
+					<li>Unikernels</li>
+					<li>zig language</li>
 				</ul>
 			</div>
-			<div className="six columns">
-			</div>
 		</div>
+
 		<div className="row footer">
 		</div>
 	</>
