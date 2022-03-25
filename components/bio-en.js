@@ -47,7 +47,7 @@ export default function Bio() {
 						<code>ts</code>
 						<code>bash</code>
 						<code>c++</code>
-						<code>haskell</code><code>:^)</code>
+						<code>react</code>
 					</li>
 				</ul>
 				<ul className="nobullets">
@@ -114,6 +114,7 @@ export default function Bio() {
 					<li>linux driver development</li>
 					<li>Unikernels</li>
 					<li>zig language</li>
+					<li>Haskell :^)</li>
 				</ul>
 			</div>
 		</div>
