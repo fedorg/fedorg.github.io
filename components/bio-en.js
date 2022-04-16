@@ -32,7 +32,7 @@ export default function Bio() {
 			<div className="six columns">
 				<h4>Areas of expertise</h4>
 				<ul className="nobullets">
-					<li><code>DevOps</code><code>SRE</code><code>IaC</code><code title="that's a cloud">☁️</code></li>
+					<li><code>DevOps</code><code>SRE</code><code>IaC</code><code title="that's a cloud" style="font-family: emoji;">☁️</code></li>
 					<li><code>Observability</code><code>Microservices</code></li>
 					<li><code>Software architecture</code></li>
 					<li title="don't judge it by this site; I've started it when Bootstrap was popular and never bothered to update it. Not to brag but am in top 5% React devs on LinkedIn. I'm learning Swift now though"><code>Frontend development</code></li>
