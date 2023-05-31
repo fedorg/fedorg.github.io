@@ -44,7 +44,12 @@ export default function Bio() {
         <div className="six columns">
           <h4>Areas of expertise</h4>
           <ul className="nobullets">
+            <li title="don't judge it by this site; I've started it when Bootstrap was popular and never bothered to update it. Not to brag but am in top 5% React devs on LinkedIn. I'm learning Swift now though">
+              <code>Frontend development</code>
+              <code>IDP</code>
+            </li>
             <li>
+              <code>Tooling</code>
               <code>DevOps</code>
               <code>SRE</code>
               <code>IaC</code>
@@ -59,9 +64,6 @@ export default function Bio() {
             <li>
               <code>Software architecture</code>
             </li>
-            <li title="don't judge it by this site; I've started it when Bootstrap was popular and never bothered to update it. Not to brag but am in top 5% React devs on LinkedIn. I'm learning Swift now though">
-              <code>Frontend development</code>
-            </li>
           </ul>
         </div>
         <div className="six columns">
@@ -69,23 +71,18 @@ export default function Bio() {
           <ul className="nobullets">
             <li>
               <code>aws</code>
-              <code>full-stack</code>
-              <code>front-end</code>
               <code>react</code>
               <code>ts</code>
-            </li>
-          </ul>
-          <ul className="nobullets">
-            <li>
               <code>backstage</code>
-              <code>bash</code>
               <code>go</code>
-              <code>python</code>
+              <code>k8s</code>
             </li>
+            {/* </ul>
+          <ul className="nobullets"> */}
             <li>
+              <code>bash</code>
               <code>terraform</code>
               <code>nomad</code>
-              <code>k8s</code>
               <code>ansible</code>
               <code>ci/cd</code>
             </li>
@@ -94,6 +91,7 @@ export default function Bio() {
               <code>loki</code>
               <code>prometheus</code>
               <code>tracing</code>
+              <code>python</code>
             </li>
             <li>
               <code>nginx</code>
